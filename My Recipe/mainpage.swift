@@ -25,7 +25,8 @@ struct RecipesView: View {
                 Text("There's no recipe yet")
                     .font(.title)
                     .padding(.top, 20)
-                
+                    .bold()
+
                 Text("Please add your recipes")
                     .font(.body)
                     .foregroundColor(.gray)
